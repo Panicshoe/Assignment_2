@@ -1,0 +1,68 @@
+<!-- 
+    Contact_me.ejs
+    Name: Risav Bhaktaraj
+    StudentID: 301313734
+    Date: 02/27/2023 
+-->
+<%- include partials/header.ejs %>
+
+<%- include partials/main_nav.ejs %>
+  
+
+<h1>        
+   <%= title %>     
+   </h1>      
+   <p>Welcome to <%= title %>      
+  </p>      
+  <p>Contact me using the following details: <br><b>           
+     Email:risavpradhan@gmail.com</b> 
+     <b>Phone: (647)-68526478<b>    
+    </p>      
+    
+    <form action="http://localhost:3000/">         
+      <label for="fname">First name:</label><br> 
+     <input type="text" id="fname" name="fname"><br>         
+     <label for="lname">Last name:</label><br>         
+     <input type="text" id="lname" name="lname"><br>         
+     <label for="num">Contact Number:</label><br>         
+     <input type="tel" id="num" name="num"><br>         
+     <label for="email">Email:</label><br>         
+     <input type="email" id="email" name="email"><br>         
+     <label for="message">Type you message here:</label><br>         
+     <textarea id="w3review" name="w3review" rows="2" cols="50">          
+     </textarea><br>     
+     <input type="submit" value="Submit">   
+       
+         
+    
+    </form>
+
+    <div>
+      <ul class="list-unstyled"> 
+          <li>
+              <i class="fa-sharp fa-solid fa-address-book"></i>
+              Risav Bhaktaraj
+          </li>
+          <li>
+              <i class="fa-solid fa-phone"></i>
+              (647)-68526478
+          </li>
+          <li>
+              <i class="fa-solid fa-envelope"></i>
+              risavpradhan@gmail.com
+          </li>
+      </ul>
+  </div>
+  
+</div>
+    <%- include partials/bottom_nav.ejs %>  
+
+    <%- include partials/footer.ejs %>
+  
+
+
+  
+
+
+
+
